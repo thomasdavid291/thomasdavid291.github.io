@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <title>黄冈道路救援_汽车拖车搭电补胎脱困_高速救援24小时｜悟空道路救援</title>
+    <meta name="description" content="悟空道路救援黄冈全天候响应，覆盖黄州区、麻城、武穴、团风、浠水、蕲春、黄梅、罗田、英山、红安及大广高速、沪渝高速、福银高速等路段。提供汽车拖车、搭电、补胎换胎、送油、脱困、开锁服务，电话400-808-2010。">
+    <meta name="keywords" content="黄冈道路救援,黄冈汽车拖车,黄冈汽车搭电,黄冈高速救援,黄冈补胎换胎,黄冈汽车脱困">
+    <link rel="canonical" href="https://thomasdavid291.github.io">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "悟空道路救援（黄冈）",
+      "url": "https://thomasdavid291.github.io",
+      "telephone": "400-808-2010",
+      "description": "悟空道路救援黄冈服务点，提供黄冈市区及下辖各县市汽车拖车、搭电、补胎换胎、送油、脱困、开锁及高速道路救援服务，7×24小时响应。",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "黄冈市",
+        "addressRegion": "湖北省",
+        "addressCountry": "CN"
+      },
+      "areaServed": [
+        {"@type": "City", "name": "黄州区"},
+        {"@type": "City", "name": "麻城市"},
+        {"@type": "City", "name": "武穴市"},
+        {"@type": "City", "name": "团风县"},
+        {"@type": "City", "name": "浠水县"},
+        {"@type": "City", "name": "蕲春县"},
+        {"@type": "City", "name": "黄梅县"},
+        {"@type": "City", "name": "罗田县"},
+        {"@type": "City", "name": "英山县"},
+        {"@type": "City", "name": "红安县"},
+        {"@type": "AdministrativeArea", "name": "龙感湖管理区"},
+        {"@type": "AdministrativeArea", "name": "黄冈高新区"}
+      ],
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+        "opens": "00:00",
+        "closes": "23:59"
+      },
+      "priceRange": "按距离与车型计价"
+    }
+    </script>
+
+    <style>
+        :root {
+            --hg-ink: #16202b;
+            --hg-slate: #2f3d4c;
+            --hg-mist: #eef2f5;
+            --hg-gold: #d4933a;
+            --hg-gold-soft: #f3e2c8;
+            --hg-danger: #c63b2e;
+            --hg-border: #d8dfe5;
+            --hg-radius-a: 14px;
+            --hg-radius-b: 6px;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html {
+            scroll-behavior: smooth;
+            -webkit-text-size-adjust: 100%;
+        }
+        body {
+            font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+            color: var(--hg-ink);
+            background: #f7f9fa;
+            line-height: 1.7;
+            padding-bottom: 82px;
+        }
+        img {
+            max-width: 100%;
+            display: block;
+        }
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        /* ========== 顶部条 ========== */
+        .hg-rescue-topstrip {
+            background: var(--hg-ink);
+            color: #dfe6ec;
+            font-size: 13px;
+            padding: 7px 16px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 12px;
+        }
+        .hg-rescue-topstrip strong {
+            color: var(--hg-gold);
+            font-weight: 600;
+        }
+        .hg-rescue-topstrip-phone {
+            color: #fff;
+            background: var(--hg-gold);
+            padding: 4px 14px;
+            border-radius: 30px;
+            font-weight: 700;
+            font-size: 13px;
+            white-space: nowrap;
+        }
+
+        /* ========== 主视觉 ========== */
+        .wukong-hero-stage {
+            position: relative;
+            background: linear-gradient(135deg, #1b2733 0%, #253647 60%, #1e2d3b 100%);
+            color: #fff;
+            overflow: hidden;
+        }
+        .wukong-hero-stage::after {
+            content: "";
+            position: absolute;
+            right: -80px;
+            top: -80px;
+            width: 320px;
+            height: 320px;
+            background: radial-gradient(circle, rgba(212,147,58,0.18) 0%, transparent 70%);
+            border-radius: 50%;
+            pointer-events: none;
+        }
+        .wukong-hero-inner {
+            max-width: 1120px;
+            margin: 0 auto;
+            padding: 40px 18px 44px;
+            position: relative;
+            z-index: 1;
+        }
+        .wukong-hero-brandrow {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 22px;
+        }
+        .wukong-hero-brandrow img {
+            height: 42px;
+            width: auto;
+            border-radius: 8px;
+            background: #fff;
+            padding: 4px 8px;
+        }
+        .wukong-hero-brandrow span {
+            font-size: 18px;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+        }
+        .wukong-hero-title {
+            font-size: clamp(25px, 4.4vw, 40px);
+            font-weight: 800;
+            line-height: 1.28;
+            margin-bottom: 14px;
+        }
+        .wukong-hero-title em {
+            font-style: normal;
+            color: var(--hg-gold);
+        }
+        .wukong-hero-sub {
+            font-size: 15px;
+            color: #c4d0da;
+            max-width: 640px;
+            margin-bottom: 24px;
+        }
+        .wukong-hero-actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+        .wukong-call-cta {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--hg-gold);
+            color: var(--hg-ink);
+            font-weight: 800;
+            font-size: 18px;
+            padding: 13px 26px;
+            border-radius: 40px;
+            box-shadow: 0 8px 22px rgba(212,147,58,0.28);
+        }
+        .wukong-call-cta small {
+            font-weight: 500;
+            font-size: 12px;
+            opacity: 0.8;
+        }
+        .wukong-service-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 22px;
+        }
+        .wukong-service-tags i {
+            font-style: normal;
+            font-size: 12.5px;
+            background: rgba(255,255,255,0.08);
+            border: 1px solid rgba(255,255,255,0.14);
+            padding: 5px 12px;
+            border-radius: 20px;
+            color: #d5dfe7;
+        }
+
+        /* ========== 轮播区域 ========== */
+        .dt-swipe-zone {
+            max-width: 1120px;
+            margin: 20px auto 0;
+            padding: 0 18px;
+        }
+        .dt-swipe-frame {
+            position: relative;
+            border-radius: var(--hg-radius-a);
+            overflow: hidden;
+            background: #dfe5ea;
+            box-shadow: 0 4px 18px rgba(22,32,43,0.09);
+        }
+        .dt-swipe-track {
+            display: flex;
+            transition: transform 0.45s ease;
+        }
+        .dt-swipe-slide {
+            min-width: 100%;
+            position: relative;
+        }
+        .dt-swipe-slide img {
+            width: 100%;
+            height: auto;
+            aspect-ratio: 16 / 6.2;
+            object-fit: cover;
+        }
+        .dt-swipe-caption {
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(transparent, rgba(10,18,26,0.72));
+            color: #fff;
+            padding: 28px 20px 14px;
+            font-size: 13.5px;
+            font-weight: 500;
+        }
+        .dt-swipe-dots {
+            position: absolute;
+            bottom: 10px;
+            right: 16px;
+            display: flex;
+            gap: 7px;
+        }
+        .dt-swipe-dots button {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            border: 0;
+            background: rgba(255,255,255,0.45);
+            cursor: pointer;
+            padding: 0;
+        }
+        .dt-swipe-dots button.is-live {
+            background: var(--hg-gold);
+            width: 20px;
+            border-radius: 10px;
+        }
+
+        /* ========== 服务矩阵 ========== */
+        .hg-svc-deck {
+            max-width: 1120px;
+            margin: 34px auto 0;
+            padding: 0 18px;
+        }
+        .hg-svc-deck-head {
+            display: flex;
+            align-items: baseline;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 18px;
+        }
+        .hg-svc-deck-head h2 {
+            font-size: clamp(20px, 3vw, 26px);
+            font-weight: 800;
+            color: var(--hg-slate);
+            border-left: 5px solid var(--hg-gold);
+            padding-left: 12px;
+        }
+        .hg-svc-deck-head p {
+            font-size: 13px;
+            color: #6c7a86;
+        }
+        .hg-svc-bento {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(168px, 1fr));
+            gap: 12px;
+        }
+        .hg-svc-cell {
+            background: #fff;
+            border: 1px solid var(--hg-border);
+            border-radius: var(--hg-radius-b);
+            padding: 16px 15px;
+            transition: border-color 0.2s, box-shadow 0.2s;
+        }
+        .hg-svc-cell:hover {
+            border-color: var(--hg-gold);
+            box-shadow: 0 6px 18px rgba(212,147,58,0.12);
+        }
+        .hg-svc-cell h3 {
+            font-size: 15.5px;
+            font-weight: 700;
+            margin-bottom: 6px;
+            color: var(--hg-ink);
+        }
+        .hg-svc-cell p {
+            font-size: 12.8px;
+            color: #5f6f7c;
+            line-height: 1.6;
+        }
+
+        /* ========== 黄冈覆盖清单 ========== */
+        .wukong-coverage-slab {
+            max-width: 1120px;
+            margin: 40px auto 0;
+            padding: 0 18px;
+        }
+        .wukong-coverage-slab h2 {
+            font-size: clamp(20px, 3vw, 26px);
+            font-weight: 800;
+            color: var(--hg-slate);
+            margin-bottom: 6px;
+        }
+        .wukong-coverage-note {
+            font-size: 13px;
+            color: #6c7a86;
+            margin-bottom: 16px;
+        }
+        .wukong-county-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 9px;
+            list-style: none;
+        }
+        .wukong-county-grid li {
+            background: #fff;
+            border: 1px solid var(--hg-border);
+            border-radius: 10px;
+            padding: 11px 13px;
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--hg-slate);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .wukong-county-grid li span {
+            font-size: 11.5px;
+            color: #8a97a2;
+            font-weight: 400;
+        }
+        .wukong-road-ribbon {
+            margin-top: 16px;
+            background: var(--hg-ink);
+            color: #cdd8e1;
+            border-radius: 12px;
+            padding: 16px 18px;
+            font-size: 13.5px;
+            line-height: 1.85;
+        }
+        .wukong-road-ribbon strong {
+            color: var(--hg-gold-soft);
+        }
+
+        /* ========== 本地场景正文 ========== */
+        .hg-context-essay {
+            max-width: 1120px;
+            margin: 40px auto 0;
+            padding: 0 18px;
+        }
+        .hg-context-essay h2 {
+            font-size: clamp(20px, 3vw, 26px);
+            font-weight: 800;
+            color: var(--hg-slate);
+            margin-bottom: 14px;
+        }
+        .hg-context-essay p {
+            font-size: 14.5px;
+            color: #3f4e5b;
+            margin-bottom: 12px;
+        }
+        .hg-context-essay .hg-local-quote {
+            background: var(--hg-mist);
+            border-left: 4px solid var(--hg-gold);
+            padding: 14px 18px;
+            border-radius: 0 10px 10px 0;
+            font-size: 13.8px;
+            color: #4b5b68;
+            margin: 16px 0;
+        }
+
+        /* ========== 高速 / 出口专项 ========== */
+        .dt-express-lane {
+            max-width: 1120px;
+            margin: 36px auto 0;
+            padding: 0 18px;
+        }
+        .dt-express-lane h2 {
+            font-size: clamp(20px, 3vw, 26px);
+            font-weight: 800;
+            color: var(--hg-slate);
+            margin-bottom: 14px;
+        }
+        .dt-express-row {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 12px;
+        }
+        .dt-express-item {
+            background: #fff;
+            border: 1px solid var(--hg-border);
+            border-radius: 10px;
+            padding: 15px 16px;
+        }
+        .dt-express-item h3 {
+            font-size: 15px;
+            font-weight: 700;
+            margin-bottom: 5px;
+            color: var(--hg-slate);
+        }
+        .dt-express-item p {
+            font-size: 12.8px;
+            color: #63727f;
+            line-height: 1.6;
+        }
+
+        /* ========== 流程 ========== */
+        .hg-flow-strip {
+            max-width: 1120px;
+            margin: 38px auto 0;
+            padding: 0 18px;
+        }
+        .hg-flow-strip h2 {
+            font-size: clamp(20px, 3vw, 26px);
+            font-weight: 800;
+            color: var(--hg-slate);
+            margin-bottom: 16px;
+        }
+        .hg-flow-track {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            counter-reset: step;
+        }
+        .hg-flow-node {
+            flex: 1 1 160px;
+            background: #fff;
+            border: 1px solid var(--hg-border);
+            border-radius: 10px;
+            padding: 14px 14px 14px 44px;
+            position: relative;
+            font-size: 13.5px;
+            color: #465561;
+        }
+        .hg-flow-node::before {
+            counter-increment: step;
+            content: counter(step);
+            position: absolute;
+            left: 13px;
+            top: 14px;
+            width: 22px;
+            height: 22px;
+            border-radius: 50%;
+            background: var(--hg-gold);
+            color: var(--hg-ink);
+            font-weight: 800;
+            font-size: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* ========== 项目图条 ========== */
+        .wukong-project-rail {
+            max-width: 1120px;
+            margin: 36px auto 0;
+            padding: 0 18px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+        .wukong-project-rail figure {
+            background: #fff;
+            border: 1px solid var(--hg-border);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .wukong-project-rail img {
+            width: 100%;
+            aspect-ratio: 4 / 3;
+            object-fit: cover;
+        }
+        .wukong-project-rail figcaption {
+            padding: 9px 11px;
+            font-size: 12.5px;
+            color: #586773;
+            text-align: center;
+        }
+
+        /* ========== FAQ ========== */
+        .hg-faq-vault {
+            max-width: 1120px;
+            margin: 40px auto 0;
+            padding: 0 18px;
+        }
+        .hg-faq-vault h2 {
+            font-size: clamp(20px, 3vw, 26px);
+            font-weight: 800;
+            color: var(--hg-slate);
+            margin-bottom: 16px;
+        }
+        .hg-faq-entry {
+            background: #fff;
+            border: 1px solid var(--hg-border);
+            border-radius: 10px;
+            padding: 15px 17px;
+            margin-bottom: 10px;
+        }
+        .hg-faq-entry h3 {
+            font-size: 15px;
+            font-weight: 700;
+            color: var(--hg-ink);
+            margin-bottom: 6px;
+        }
+        .hg-faq-entry p {
+            font-size: 13.5px;
+            color: #566572;
+            line-height: 1.75;
+        }
+
+        /* ========== 底部 ========== */
+        .wukong-foot-deck {
+            max-width: 1120px;
+            margin: 42px auto 0;
+            padding: 0 18px;
+        }
+        .wukong-foot-card {
+            background: var(--hg-ink);
+            color: #c9d4de;
+            border-radius: var(--hg-radius-a);
+            padding: 26px 22px;
+            text-align: center;
+        }
+        .wukong-foot-card h2 {
+            color: #fff;
+            font-size: clamp(20px, 3vw, 26px);
+            font-weight: 800;
+            margin-bottom: 8px;
+        }
+        .wukong-foot-card p {
+            font-size: 13.5px;
+            color: #9fb0be;
+            margin-bottom: 16px;
+        }
+        .wukong-foot-phone {
+            display: inline-block;
+            background: var(--hg-gold);
+            color: var(--hg-ink);
+            font-weight: 800;
+            font-size: 22px;
+            padding: 12px 34px;
+            border-radius: 40px;
+            letter-spacing: 0.5px;
+        }
+        .wukong-foot-meta {
+            margin-top: 18px;
+            font-size: 12px;
+            color: #6e808f;
+            line-height: 1.8;
+        }
+
+        /* ========== 悬浮呼叫 ========== */
+        .hg-float-dial {
+            position: fixed;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 999;
+            background: rgba(22,32,43,0.96);
+            backdrop-filter: blur(6px);
+            padding: 10px 14px calc(10px + env(safe-area-inset-bottom));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 14px;
+            border-top: 1px solid rgba(212,147,58,0.35);
+        }
+        .hg-float-dial-label {
+            color: #cdd8e1;
+            font-size: 12.5px;
+            line-height: 1.3;
+            text-align: right;
+        }
+        .hg-float-dial-label strong {
+            display: block;
+            color: var(--hg-gold);
+            font-size: 16px;
+            font-weight: 800;
+            letter-spacing: 0.3px;
+        }
+        .hg-float-dial-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--hg-gold);
+            color: var(--hg-ink);
+            font-weight: 800;
+            font-size: 17px;
+            padding: 11px 28px;
+            border-radius: 40px;
+            box-shadow: 0 4px 16px rgba(212,147,58,0.35);
+            white-space: nowrap;
+        }
+
+        @media (max-width: 600px) {
+            .hg-svc-bento { grid-template-columns: 1fr 1fr; }
+            .wukong-county-grid { grid-template-columns: 1fr 1fr; }
+            .wukong-project-rail { grid-template-columns: 1fr 1fr; }
+            .dt-swipe-caption { font-size: 12px; padding: 20px 14px 12px; }
+            .hg-float-dial-label { display: none; }
+            .hg-float-dial { justify-content: stretch; }
+            .hg-float-dial-btn { flex: 1; justify-content: center; }
+        }
+        @media (max-width: 380px) {
+            .hg-svc-bento { grid-template-columns: 1fr; }
+            .wukong-county-grid { grid-template-columns: 1fr; }
+            .wukong-project-rail { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+<!-- 顶部信息条 -->
+<div class="hg-rescue-topstrip">
+    <span>黄冈全境 · <strong>7×24小时</strong> 道路救援调度</span>
+    <a href="tel:4008082010" class="hg-rescue-topstrip-phone">400-808-2010</a>
+</div>
+
+<!-- 主视觉 -->
+<header class="wukong-hero-stage">
+    <div class="wukong-hero-inner">
+        <div class="wukong-hero-brandrow">
+            <img src="https://liaocheng.shdaoljy.com/uploads/image/20221122/3e4f19561e78ff8d41b271d4bdaca90.png"
+                 alt="悟空道路救援品牌标识 黄冈道路救援服务">
+            <span>悟空道路救援 · 黄冈</span>
+        </div>
+        <h1 class="wukong-hero-title">
+            黄冈道路救援<br>
+            <em>拖车 · 搭电 · 补胎 · 脱困</em> 24小时响应
+        </h1>
+        <p class="wukong-hero-sub">
+            覆盖黄州区、麻城、武穴、团风、浠水、蕲春、黄梅、罗田、英山、红安，以及大广高速、沪渝高速、福银高速、武英高速、麻武高速黄冈段。一个电话，就近派车。
+        </p>
+        <div class="wukong-hero-actions">
+            <a href="tel:4008082010" class="wukong-call-cta">
+                400-808-2010 <small>点击呼叫</small>
+            </a>
+        </div>
+        <div class="wukong-service-tags">
+            <i>黄冈汽车拖车</i>
+            <i>黄冈汽车搭电</i>
+            <i>黄冈补胎换胎</i>
+            <i>黄冈高速救援</i>
+            <i>黄冈汽车脱困</i>
+            <i>黄冈送油</i>
+            <i>黄冈汽车开锁</i>
+        </div>
+    </div>
+</header>
+
+<!-- 轮播（文字说明静态存在于HTML） -->
+<section class="dt-swipe-zone" aria-label="黄冈道路救援场景展示">
+    <div class="dt-swipe-frame">
+        <div class="dt-swipe-track" id="dtSwipeTrack">
+            <div class="dt-swipe-slide">
+                <img src="https://liaocheng.shdaoljy.com/uploads/image/20221203/6ed381efb33f2e93372e3dd89ed88fe5.jpg"
+                     alt="黄冈高速道路救援拖车现场 大广高速黄冈段24小时拖车服务">
+                <div class="dt-swipe-caption">黄冈高速拖车 · 大广高速黄冈段 / 黄冈北出口就近响应</div>
+            </div>
+            <div class="dt-swipe-slide">
+                <img src="https://img4.pcauto.com.cn/pcauto/images/auto_hj/20261028/79091032.png"
+                     alt="黄冈汽车搭电救援 黄州区车辆电瓶亏电现场搭电">
+                <div class="dt-swipe-caption">黄冈汽车搭电 · 黄州区 / 团风 / 浠水城区快速到达</div>
+            </div>
+            <div class="dt-swipe-slide">
+                <img src="https://img4.pcauto.com.cn/pcauto/images/auto_hj/20261028/79091011.png"
+                     alt="黄冈流动补胎换胎 蕲春黄梅路段轮胎故障救援">
+                <div class="dt-swipe-caption">黄冈补胎换胎 · 蕲春 / 黄梅 / 武穴沿线流动服务</div>
+            </div>
+            <div class="dt-swipe-slide">
+                <img src="https://img4.pcauto.com.cn/pcauto/images/auto_hj/20261028/79091013.png"
+                     alt="黄冈汽车脱困救援 麻城罗田山区路段车辆脱困">
+                <div class="dt-swipe-caption">黄冈汽车脱困 · 麻城 / 罗田 / 英山复杂路段脱困</div>
+            </div>
+        </div>
+        <div class="dt-swipe-dots" id="dtSwipeDots"></div>
+    </div>
+</section>
+
+<!-- 服务矩阵 -->
+<section class="hg-svc-deck">
+    <div class="hg-svc-deck-head">
+        <h2>黄冈道路救援服务项目</h2>
+        <p>按车型与距离计价 · 到场前可沟通费用</p>
+    </div>
+    <div class="hg-svc-bento">
+        <div class="hg-svc-cell">
+            <h3>黄冈汽车拖车</h3>
+            <p>故障车、事故车拖曳至黄冈指定维修点或高速出口，覆盖黄州、麻城、武穴及各县城区。</p>
+        </div>
+        <div class="hg-svc-cell">
+            <h3>黄冈汽车搭电</h3>
+            <p>电瓶亏电无法启动，搭电或协助更换电瓶，黄冈市区及团风、浠水方向就近派车。</p>
+        </div>
+        <div class="hg-svc-cell">
+            <h3>黄冈汽车补胎换胎</h3>
+            <p>流动补胎、备胎更换，服务蕲春、黄梅、武穴沿线及高速出口周边路段。</p>
+        </div>
+        <div class="hg-svc-cell">
+            <h3>黄冈高速道路救援</h3>
+            <p>大广高速、沪渝高速、福银高速黄冈段故障车拖离、现场抢修与换胎。</p>
+        </div>
+        <div class="hg-svc-cell">
+            <h3>黄冈汽车脱困</h3>
+            <p>车辆陷入泥地、路肩、沟渠等困境，提供拖拽与脱困方案，麻城、罗田山区路段可派。</p>
+        </div>
+        <div class="hg-svc-cell">
+            <h3>黄冈送油 / 开锁</h3>
+            <p>燃油耗尽应急送油，钥匙误锁车内提供开锁协助，红安、英山等地均可调度。</p>
+        </div>
+    </div>
+</section>
+
+<!-- 黄冈覆盖清单 -->
+<section class="wukong-coverage-slab">
+    <h2>黄冈救援覆盖区域</h2>
+    <p class="wukong-coverage-note">以下区县及高速路段均在悟空道路救援黄冈调度范围内</p>
+    <ul class="wukong-county-grid">
+        <li>黄州区 <span>主城区</span></li>
+        <li>麻城市 <span>代管市</span></li>
+        <li>武穴市 <span>代管市</span></li>
+        <li>团风县 <span>江北</span></li>
+        <li>浠水县 <span>沿线</span></li>
+        <li>蕲春县 <span>沿线</span></li>
+        <li>黄梅县 <span>鄂东</span></li>
+        <li>罗田县 <span>山区</span></li>
+        <li>英山县 <span>山区</span></li>
+        <li>红安县 <span>鄂东北</span></li>
+        <li>龙感湖管理区 <span>辖区</span></li>
+        <li>黄冈高新区 <span>城区</span></li>
+    </ul>
+    <div class="wukong-road-ribbon">
+        <strong>高速覆盖：</strong>大广高速（黄冈段）、沪渝高速（黄冈段）、福银高速（黄冈段）、武英高速、麻武高速、麻竹高速、黄鄂高速、麻阳高速。<br>
+        <strong>常用出口 / 节点：</strong>黄冈北出口、黄冈收费站、麻城出口、武穴出口、蕲春出口、黄梅出口、团风出口、浠水出口、罗田出口、英山出口、红安出口。高速故障车优先拖离至最近出口或服务区。
+    </div>
+</section>
+
+<!-- 本地场景正文 -->
+<section class="hg-context-essay">
+    <h2>黄冈本地道路救援实际情况</h2>
+    <p>
+        黄冈地处鄂豫皖赣交界，高速路网密集，大广高速、沪渝高速、福银高速穿境而过，日常车流与过境货车叠加。在黄州城区、麻城、武穴等主要节点，高峰时段或雨雪天气下车辆电瓶亏电、轮胎故障、轻微事故后的拖车需求相对集中。悟空道路救援黄冈调度点根据车主所在区县和最近高速出口进行派车，减少等待时间。
+    </p>
+    <div class="hg-local-quote">
+        黄冈高速路段救援与城区救援的作业条件不同。高速上需先由救援车辆将故障车拖曳至最近出口或服务区，再进行补胎、搭电或转运。黄冈北出口、麻城出口、蕲春出口附近均有可衔接的维修资源，悟空道路救援在调度时会同步确认出口衔接方案，避免车主在高速上长时间滞留。
+    </div>
+    <p>
+        对于红安、罗田、英山等山区县，部分路段坡陡弯急，车辆脱困和拖车需要适配车型与路况。黄冈市区及团风、浠水方向则以搭电、送油、开锁等应急需求较为常见。无论车辆在黄冈哪个区县或哪条高速路段，拨打 400-808-2010 后，调度人员会根据定位描述确认最近可调派的救援车辆。
+    </p>
+</section>
+
+<!-- 高速 / 出口专项 -->
+<section class="dt-express-lane">
+    <h2>黄冈高速汽车救援重点路段</h2>
+    <div class="dt-express-row">
+        <div class="dt-express-item">
+            <h3>大广高速黄冈段</h3>
+            <p>南北向过境干道，黄冈北出口、团风出口、麻城出口为重点衔接节点，故障拖车优先引导至最近出口。</p>
+        </div>
+        <div class="dt-express-item">
+            <h3>沪渝高速 / 福银高速黄冈段</h3>
+            <p>东西向车流密集，黄梅、蕲春、武穴出口周边补胎换胎与搭电需求较多，可调度流动服务。</p>
+        </div>
+        <div class="dt-express-item">
+            <h3>武英高速 / 麻武高速</h3>
+            <p>连接罗田、英山方向，山区路段脱困与拖车需提前沟通车型和现场路况。</p>
+        </div>
+    </div>
+</section>
+
+<!-- 流程 -->
+<section class="hg-flow-strip">
+    <h2>黄冈救援调度流程</h2>
+    <div class="hg-flow-track">
+        <div class="hg-flow-node">拨打 400-808-2010 说明所在区县或高速路段</div>
+        <div class="hg-flow-node">调度确认定位并就近派车</div>
+        <div class="hg-flow-node">救援人员到场前电话沟通现场情况</div>
+        <div class="hg-flow-node">现场作业 / 拖曳至黄冈指定位置</div>
+    </div>
+</section>
+
+<!-- 项目图条 -->
+<section class="wukong-project-rail" aria-label="黄冈道路救援项目示意">
+    <figure>
+        <img src="https://liaocheng.shdaoljy.com/template/default/index/img/fanwei-1.png"
+             alt="黄冈道路救援服务范围示意 黄州区及周边">
+        <figcaption>黄州区及周边调度</figcaption>
+    </figure>
+    <figure>
+        <img src="https://liaocheng.shdaoljy.com/template/default/index/img/fanwei-2.png"
+             alt="黄冈汽车拖车服务示意 麻城武穴方向">
+        <figcaption>麻城 / 武穴方向拖车</figcaption>
+    </figure>
+    <figure>
+        <img src="https://liaocheng.shdaoljy.com/template/default/index/img/fanwei-3.png"
+             alt="黄冈高速救援示意 大广高速黄冈段">
+        <figcaption>高速路段拖离衔接</figcaption>
+    </figure>
+</section>
+
+<!-- FAQ -->
+<section class="hg-faq-vault">
+    <h2>黄冈道路救援常见问题</h2>
+    <div class="hg-faq-entry">
+        <h3>黄冈高速上车辆故障，救援车能直接上高速拖车吗？</h3>
+        <p>可以调度高速救援车辆，但通常需先将故障车拖曳至最近出口或服务区，再根据需求转运。拨打 400-808-2010 时说明所在高速名称、行驶方向和最近出口，有助于快速衔接。</p>
+    </div>
+    <div class="hg-faq-entry">
+        <h3>黄冈哪些区县可以派救援？</h3>
+        <p>黄州区、麻城市、武穴市、团风县、浠水县、蕲春县、黄梅县、罗田县、英山县、红安县，以及龙感湖管理区、黄冈高新区范围均可调度。高速路段按最近出口归属地派车。</p>
+    </div>
+    <div class="hg-faq-entry">
+        <h3>夜间在黄冈汽车搭电或补胎能安排吗？</h3>
+        <p>悟空道路救援黄冈服务为 7×24 小时响应，夜间可安排搭电、补胎换胎和拖车，费用根据距离与作业条件沟通确认。</p>
+    </div>
+</section>
+
+<!-- 底部 -->
+<footer class="wukong-foot-deck">
+    <div class="wukong-foot-card">
+        <h2>黄冈道路救援 · 悟空道路救援</h2>
+        <p>拖车 / 搭电 / 补胎 / 脱困 / 高速救援 / 送油 / 开锁</p>
+        <a href="tel:4008082010" class="wukong-foot-phone">400-808-2010</a>
+        <div class="wukong-foot-meta">
+            服务区域：黄冈市及下辖各区县 · 高速路段按最近出口调度<br>
+            本站内容为黄冈本地道路救援服务说明，具体作业条件以现场沟通为准。
+        </div>
+    </div>
+</footer>
+
+<!-- 悬浮呼叫 -->
+<div class="hg-float-dial">
+    <div class="hg-float-dial-label">
+        黄冈救援调度
+        <strong>7×24 小时</strong>
+    </div>
+    <a href="tel:4008082010" class="hg-float-dial-btn">📞 400-808-2010</a>
+</div>
+
+<script>
+(function () {
+    var track = document.getElementById('dtSwipeTrack');
+    var dotBox = document.getElementById('dtSwipeDots');
+    if (!track || !dotBox) return;
+    var slides = track.querySelectorAll('.dt-swipe-slide');
+    var total = slides.length;
+    var idx = 0;
+
+    for (var i = 0; i < total; i++) {
+        var b = document.createElement('button');
+        b.setAttribute('aria-label', '切换到第' + (i + 1) + '张黄冈救援场景图');
+        if (i === 0) b.className = 'is-live';
+        b.dataset.idx = i;
+        dotBox.appendChild(b);
+    }
+
+    function goTo(n) {
+        idx = n;
+        track.style.transform = 'translateX(-' + (idx * 100) + '%)';
+        var dots = dotBox.querySelectorAll('button');
+        for (var j = 0; j < dots.length; j++) {
+            dots[j].className = j === idx ? 'is-live' : '';
+        }
+    }
+
+    dotBox.addEventListener('click', function (e) {
+        var btn = e.target.closest('button');
+        if (!btn) return;
+        goTo(parseInt(btn.dataset.idx, 10));
+    });
+
+    var auto = setInterval(function () {
+        goTo((idx + 1) % total);
+    }, 4800);
+
+    track.addEventListener('mouseenter', function () { clearInterval(auto); });
+})();
+</script>
+
+</body>
+</html>
